@@ -1,4 +1,4 @@
-package com.faw.poc.iotclientmock;
+package com.faw.poc.iotclientmock.DirectlyConnectedMock;
 
 import oracle.iot.client.DeviceModel;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,7 +21,7 @@ public class MockClientService {
     private String remote_host_name;
 
     // The URN marked with number 2.
-    private  final String URN = "urn:test:hellooracle";
+    private  final String URN = "urn:fawiotpoc:aircondition";
 
     // The attribute name marked with number 3.
     private final String GREETING_ATTRIBUTE = "message";

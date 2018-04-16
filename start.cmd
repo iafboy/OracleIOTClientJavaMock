@@ -1,2 +1,2 @@
-java -jar target/iotclientmock-1.0.jar ./HELLO-WORLD Welcome1
+java -jar target/iotclientmock-1.0.jar ./michidevices Welcome1 1
 pause
