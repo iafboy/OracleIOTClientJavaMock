@@ -48,6 +48,11 @@ public abstract class MockAbsService {
                             throw e;
                         }
                     }
+                    try {
+                        Thread.sleep(3 * 1000);
+                    }catch(Exception ex){
+                        ex.printStackTrace();
+                    }
                 }
             } catch (Exception ex) {;
                 throw ex;
